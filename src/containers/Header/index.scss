@@ -1,0 +1,21 @@
+.header {
+    display: flex;    
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+    grid-area: h;
+    &-wrap {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }    
+    &-logo {
+        padding-right: 10px;
+        height: 24px;
+        pointer-events: none;            
+    }
+    &__menu {
+        cursor: pointer;
+    }
+}
