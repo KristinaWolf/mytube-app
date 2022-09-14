@@ -4,7 +4,7 @@ import "./index.scss";
 const Footer = () => {
     return (
         <div className="footer">
-            <p>© 2022 Google LLC</p>    
+            <p className="footer__copyright">© 2022 WolFox</p>    
         </div>
     );
 }

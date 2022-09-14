@@ -1,7 +1,12 @@
 .footer {
-    display: flex;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
     background-color: #1d1d1d;
-    flex-direction: column-reverse;
     grid-area: f;
-    padding: 20px 0 0 10px;
+    padding: 20px 0 20px;
+    &__copyright {
+        text-align: center;
+    }
 }
